@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Comarca · Juegos & Café</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#102315">
+  <link rel="apple-touch-icon" href="/assets/icon-192.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <button id="menuBtn" aria-label="Abrir navegación">☰</button>
+    <h1>La Comarca</h1>
+    <a class="ig" href="https://www.instagram.com/lacomarca.r4/" target="_blank" rel="noopener">IG</a>
+  </header>
+
+  <nav id="drawer" class="drawer" aria-label="Navegación principal">
+    <a href="#/" data-link>Inicio</a>
+    <a href="#/menu" data-link>Menú</a>
+    <a href="#/juegos" data-link>Explicar juegos</a>
+    <a href="#/puntos" data-link>Puntos & Premios</a>
+    <a href="#/eventos" data-link>Agenda</a>
+    <a href="#/contacto" data-link>Contacto</a>
+    <a href="#/tienda" data-link>Tienda</a>
+  </nav>
+
+  <main id="app"></main>
+
+  <footer class="app-footer">
+    <p>© La Comarca — Río Cuarto · Córdoba</p>
+    <p><small>Demo PWA. Instalala desde el navegador: “Agregar a pantalla de inicio”.</small></p>
+  </footer>
+</body>
+</html>
